@@ -27,5 +27,5 @@
 #### Here is the link to the logical digram: 
 
 #### 6. Bonus: Create AWS Organization
-#### After watching Ashish's I decided to create organizations. I have two organization buckets: active and standby. I will move departments to them soon.
+#### After watching Ashish's video I decided to create organizations. I have two organization buckets: active and standby. I will move departments to them soon.
 
