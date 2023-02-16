@@ -5,8 +5,7 @@
 ### Below are the tasks that I worked on and completed:
 
 #### 1. Watched Week One videos
-#### I watched all the suggested videos for this week especially the spend and security videos. All videos helped me a lot in setup my environment 
-up correctly and with providing with additional knowledge to help me during this bootcamp. 
+#### I watched all the suggested videos for this week especially the spend and security videos. All videos helped me a lot in setup my environment up correctly and with providing with additional knowledge to help me during this bootcamp. 
 
 #### 2. Create an Admin User 
 #### I created a root and IAM accounts with MFA enabled on them. I have two user Groups set up, Administrators and Developers. They both have Admin Access. Currently, I have only 1 User created. The User is in both groups. I have 4 service roles, AWSServiceRoleForCloudTrail, AWSServiceRoleForOrganizations, AWSServiceRoleForSupport and, AWSServiceRoleForTrustedAdvisor. 
