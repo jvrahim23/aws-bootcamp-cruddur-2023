@@ -24,7 +24,7 @@
 
 #### 7. Recreate Conceptual & Logical Architectual Diagrams in Lucid Charts
 #### Here is the link to the conceptual diagram:https://lucid.app/lucidchart/f8080e2b-9b62-46b1-b1c7-96bc2c741956/edit?viewport_loc=81%2C-21%2C2123%2C1097%2C0_0&invitationId=inv_86d6219e-89d8-40fa-af89-0a85d04d513d 
-#### Here is the link to the logical digram: 
+#### Here is the link to the logical digram: https://lucid.app/lucidchart/e335c9af-e667-4e4b-8697-c45b67121862/edit?viewport_loc=4%2C5%2C2115%2C1097%2C0_0&invitationId=inv_b960c1c7-163d-452c-93df-34a4c27d2b47
 
 #### 6. Bonus: Create AWS Organization
 #### After watching Ashish's video I decided to create organizations. I have two organization buckets: active and standby. I will move departments to them soon.
