@@ -2,7 +2,7 @@
 
 ##### This week was challenging for me. I used Docker in 2022, but I do not use it regularly. I will continue to research and practice in Docker and in using its commands.
 ##### I learned how to install Docker on my local machine, and I got the same containers running outside of Gitpod / Codespaces.
-##### I installed venv in VSCode. venv allowed me to create a virtual environment with the dependencies needed for a limited time. Venv and all my files to a new branch here: jvrahim23/aws-bootcamp-cruddur-2023 at week1 (github.com).
+##### I installed venv in VSCode. venv allowed me to create a virtual environment with the dependencies needed for a limited time. Venv and all my files to a new branch here: [jvrahim23/aws-bootcamp-cruddur-2023 at week1 (github.com)](https://github.com/jvrahim23/aws-bootcamp-cruddur-2023/tree/week1).
 ##### I still need to add all the code from main > week 1(notifications code) to my week1 repo. But I was able to see the app running at localhost:3000.
 ##### Also, I created a Docker Hub account and pushed my frontend and backend images to it. 
 ###### Images here: https://hub.docker.com/repository/docker/jvrahim23/aws-free-cloud-bootcamp/tags?page=1&ordering=last_updated
