@@ -30,19 +30,18 @@ export default function SigninPage() {
   const onsubmit = async (event) => {
     setErrors('')
     event.preventDefault();
-    try {
       Auth.signIn(email, password)
         .then(user => {
           localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
           window.location.href = "/"
         })
-    } catch (error) {
-      if (error.code == 'UserNotConfirmedException') {
-        window.location.href = "/confirm"
-      }
-      setErrors(error.message)
-    }
-    return false
+        .catch(error => { 
+          if (error.code == 'UserNotConfirmedException') {
+            window.location.href = "/confirm"
+         }
+         setErrors(error.message)
+        });
+      return false
   }
 
   const email_onchange = (event) => {
