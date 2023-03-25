@@ -112,3 +112,4 @@ class CognitoJwtToken:
 
         self.claims = claims 
         return claims
+

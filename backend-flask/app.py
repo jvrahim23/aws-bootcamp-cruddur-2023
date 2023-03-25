@@ -13,10 +13,8 @@ from services.message_groups import *
 from services.messages import *
 from services.create_message import *
 from services.show_activity import *
-from services.notifications_activities import *
 
-from lib.cognito_jwt_token import extract_access_token, CognitoJwtToken, TokenVerifyError
-
+from lib.cognito_jwt_token import CognitoJwtToken, extract_access_token, TokenVerifyError
 
 # HoneyComb ---------
 from opentelemetry import trace
@@ -228,7 +226,8 @@ def data_activities_reply(activity_uuid):
     return model['errors'], 422
   else:
     return model['data'], 200
-  return
+  # return
 
 if __name__ == "__main__":
   app.run(debug=True)
+
